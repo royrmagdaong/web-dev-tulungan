@@ -1,0 +1,124 @@
+body, html{
+    background: #F8F8F8;
+    height: 200vh;
+    font-family: 'Roboto', sans-serif;
+}
+body,p,h1,h2,h3{
+    margin: 0;
+}
+.navbar{
+    background: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    /* pag d-flex lahat ng child nya magiging inline */
+    position: fixed;
+    top: 0;
+    width: 80%;
+    z-index: 2;
+}
+.navbar .links{
+    align-self: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: #555;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.icon{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #777;
+    align-self: center;
+}
+.banner{
+    background: #929292;
+    height: 60vh;
+    margin-top: 80px;
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner .banner-title{
+    font-size: 65px;
+    color: white;
+    position: relative;
+    bottom: 80px;
+}
+.banner .banner-text{
+    font-size: 16px;
+    color: white;
+    width: 600px;
+    align-self: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    position: relative;
+    bottom: 80px;
+}
+.banner .action-btn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 80px;
+}
+.banner .action-btn .btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #818080;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 46px;
+    padding-right: 46px;
+    border-radius: 21.5px;
+}
+.banner .action-btn .btn:hover{
+    cursor: pointer;
+    background: #000;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 180px;
+    z-index: 1;
+}
+.card-1, .card-2, .card-3{
+    height: 400px;
+    width: 320px;
+    background: white;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 15px;
+    box-shadow: 2px 4px 45px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cards .card-icon{
+    color: #818080;
+    font-size: 84px;
+    align-self: center;
+}
+.cards .card-title{
+    color: #818080;
+    font-size: 22px;
+    font-weight: 500;
+    align-self: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.cards .card-text{
+    color: #817d7d;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.3;
+}
