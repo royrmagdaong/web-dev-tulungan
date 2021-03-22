@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar" id="nav">
+        <div class="brand-name">Brand Name</div>
+        <div class="links">
+            <div id="register" onclick="openRegisterModal()">Register</div>
+            <div id="login" onclick="openLoginModal()">Login</div>
+        </div>
+    </div>
+    <div id="registerModal">
+        <div class="register-card">
+            <label>Email</label>
+            <br>
+            <input type="text" id="email_R">
+            <label>Password</label>
+            <br>
+            <input type="password" id="password_R">
+            <div id="btnRegister" onclick="closeModal()">Register</div>
+        </div>
+    </div>
+    <div id="loginModal">
+        <div class="login-card">
+            <label>Email</label>
+            <br>
+            <input type="text" id="email_L">
+            <label>Password</label>
+            <br>
+            <input type="password" id="password_L">
+
+            <div id="btnLogin" onclick="closeModal()">Login</div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
