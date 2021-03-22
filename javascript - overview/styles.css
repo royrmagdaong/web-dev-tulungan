@@ -1,0 +1,11 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    padding: 20px;
+    margin: 8px;
+    background: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
