@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+/* title only */
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+body, html{
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+/* Guitar Image*/
+.guitar{
+    width: 320px;
+    position: absolute;
+    top: 220px;
+    left: -80px;
+}
+/* brand icon */
+#brandicon{
+    background-color: #4c700d; 
+    padding: 12px; 
+    font-size: 22px; 
+    margin-right: 12px; 
+    border-radius: 50%; 
+    color: white;
+    position: relative;
+}
+
+
+/* Start of Navbar */
+.navbar{
+    height: 10vh;
+    background-color: #fbfdff;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.navbar .navbar-title{
+    display: flex;
+    align-self: center;
+    align-content: center;
+}
+.navbar .navbar-title .title{
+    font-family: 'Paytone One', sans-serif;
+    align-self: center;
+    position: relative;
+    bottom: 4px;
+    color: #636060;
+    font-size: 25px;   
+}
+.navbar .navbar-btns{
+    display: flex;
+    align-self: center;
+}
+.navbar .navbar-btn{
+    background-color: #4c700d;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 21px;
+    margin-right: 12px;
+}
+.navbar .navbar-btn .main-text{
+    color: white;
+    font-weight: 700;
+    position: relative;
+    top: 1px;
+}
+.navbar .navbar-btns .navbar-btn .sub-text{
+    color: #9bf008d8;
+    font-weight: bold;
+    font-size: 13px;
+}
+.navbar .navbar-btns .login{
+    padding: 12px;
+    color: #5e7288;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    top: 2px;
+}
+/* End of Navbar */
+
+/* Start of Banner */
+.banner{
+    height: 72vh;
+    background-color: #7dbdf1;
+    display: flex;
+}
+.banner .banner-title{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.banner .banner-title div{
+    align-self: flex-end;
+    position: relative;
+    bottom: 68px;
+    right: 60px;
+}
+.banner .banner-title .title{
+    color: white;
+    font-size: 36px;
+    margin-bottom: 28px;
+    font-weight: 600;
+}
+.banner .banner-title .text{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.banner .banner-card{
+    width: 50%;
+    position: relative;
+}
+.banner .banner-card .card .card-content{
+    height: 63vh;
+    width: 55%;
+    background-color: #fbfdff;
+    position: absolute;
+    bottom: -90px;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 56px;
+}
+.banner .banner-card .card .card-content .icon{
+    margin-bottom: 16px;
+    font-size: 36px;
+    text-align: center;
+    color: #38a0f5;
+}
+.banner .banner-card .card .card-content .title{
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #38a0f5;
+}
+.banner .banner-card .card .card-content .text{
+    font-size: 14px;
+    line-height: 24px;
+    color: #38a0f5;
+}
+.banner .banner-card .card .card-content .text .first{
+    margin-bottom: 28px;
+}
+/* End of Banner */
+
+/* Start of Footer */
+.footer{
+    height: 18vh;
+    background-color: #4a89df;
+}
+/* End of Footer */
